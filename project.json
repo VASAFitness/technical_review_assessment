@@ -1,0 +1,37 @@
+{
+  "name": "check_in_review_assignment",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/check_in_review_assignment/src",
+  "projectType": "application",
+  "targets": {
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun run start",
+        "cwd": "apps/check_in_review_assignment"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun run test",
+        "cwd": "apps/check_in_review_assignment"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun run lint",
+        "cwd": "apps/check_in_review_assignment"
+      }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun run typecheck",
+        "cwd": "apps/check_in_review_assignment"
+      }
+    }
+  },
+  "tags": ["type:app"]
+}
