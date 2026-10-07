@@ -1,6 +1,9 @@
 # Technical review assessments
 
-The existing assignment is in [architecture_review](architecture_review/README.md).
+- [Architecture review](architecture_review/README.md): review the existing TypeScript check-in code.
+- [Foundations assignment](foundations_interviewer/README.md): a live Go exercise with a key-fob scanner and turnstile.
+
+## Architecture review
 
 Run it from that folder:
 
