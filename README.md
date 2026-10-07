@@ -1,10 +1,12 @@
-# Technical Review Assignment
+# Technical review assessments
 
-Act as if it is your first day at VASA and you are getting up to speed on the codebase and will be meeting with the team to share your observations and to set technical direction.
+The existing assignment is in [architecture_review](architecture_review/README.md).
 
-You can run the project locally if that helps:
+Run it from that folder:
 
 ```bash
+cd architecture_review
+bun install --frozen-lockfile
 bun run start
 bun run test
 bun run typecheck
