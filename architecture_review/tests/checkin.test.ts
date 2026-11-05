@@ -5,7 +5,7 @@ import { FakeCheckInDb } from '../src/db';
 import { memberService } from '../src/memberService';
 import { SendMessage } from '../src/sendMessage';
 
-describe('check-in review assignment', () => {
+describe('check-in processing', () => {
   test('runs the inherited check-in flow', () => {
     expect(runCheckInReview()).toEqual({
       checkinsProcessed: 4,

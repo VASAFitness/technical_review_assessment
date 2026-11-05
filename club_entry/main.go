@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/VASAFitness/technical_review_assessment/foundations_interviewer/access"
-	"github.com/VASAFitness/technical_review_assessment/foundations_interviewer/turnstile"
+	"github.com/VASAFitness/technical_review_assessment/club_entry/access"
+	"github.com/VASAFitness/technical_review_assessment/club_entry/turnstile"
 )
 
 func main() {

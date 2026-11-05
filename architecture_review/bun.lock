@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@vasa/check-in-review-assignment",
+      "name": "@vasa/check-in-review",
       "devDependencies": {
         "@types/bun": "latest",
         "typescript": "^5.5.0",

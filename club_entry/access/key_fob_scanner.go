@@ -1,6 +1,6 @@
 package access
 
-import "github.com/VASAFitness/technical_review_assessment/foundations_interviewer/turnstile"
+import "github.com/VASAFitness/technical_review_assessment/club_entry/turnstile"
 
 type KeyFobScanner struct {
 	device        *turnstile.Turnstile
